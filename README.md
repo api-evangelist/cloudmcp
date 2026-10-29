@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cloud MCP is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://cloudmcp.run/
+Cloud MCP provides a Remote Model Context Protocol (MCP) platform that enables AI assistants like Claude and ChatGPT to connect to real-world tools such as Google Calendar, databases, file systems, and web search without requiring API keys or terminal commands. Users receive a secure private URL that the AI can use to perform actions like scheduling meetings, querying data, managing files, and accessing advertising insights. The service offers a library of connectors, simple pricing with a free tier, and supports OAuth 2.1 security. Cloud MCP aims to simplify AI tool integration for developers and enterprises.
+
+**Areas:** Company · Artificial Intelligence · Integration · Tools · Automation
+
+## Cloud MCP on APIs.io
+
+Everything profiled for Cloud MCP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cloudmcp/](https://apis.io/providers/cloudmcp/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Cloud MCP API](https://apis.io/apis/cloudmcp/cloud-mcp-api/) — API reference for Cloud MCP platform
+- [Cloud MCP Cloud MCP API](https://apis.io/apis/cloudmcp/cloudmcp-cloud-mcp-api-api/) — The Cloud MCP API API from Cloud MCP — 1 operation(s) for cloud mcp api.
+- [Cloud MCP Credit API](https://apis.io/apis/cloudmcp/cloudmcp-credit-api/) — The Credit API from Cloud MCP — 1 operation(s) for credit.
+- [Cloud MCP Dashboard API](https://apis.io/apis/cloudmcp/cloudmcp-dashboard-api/) — The Dashboard API from Cloud MCP — 1 operation(s) for dashboard.
+- [Cloud MCP Orders API](https://apis.io/apis/cloudmcp/cloudmcp-orders-api/) — The Orders API from Cloud MCP — 1 operation(s) for orders.
+- [Cloud MCP Plants API](https://apis.io/apis/cloudmcp/cloudmcp-plants-api/) — The Plants API from Cloud MCP — 2 operation(s) for plants.
+- [Cloud MCP User API](https://apis.io/apis/cloudmcp/cloudmcp-user-api/) — The User API from Cloud MCP — 1 operation(s) for user.
+- [Cloud MCP Users API](https://apis.io/apis/cloudmcp/cloudmcp-users-api/) — The Users API from Cloud MCP — 1 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [DeletePlantsIdResponse](https://apis.io/schemas/cloudmcp/cloudmcp-delete-plants-id-response/)
+- [GetPlantsIdResponse](https://apis.io/schemas/cloudmcp/cloudmcp-get-plants-id-response/)
+- [GetPlantsResponse](https://apis.io/schemas/cloudmcp/cloudmcp-get-plants-response/)
+- [PostPlantsResponse](https://apis.io/schemas/cloudmcp/cloudmcp-post-plants-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cloudmcp Context](https://apis.io/jsonld/cloudmcp/cloudmcp-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cloud MCP API Rules](https://apis.io/rules/cloudmcp/cloudmcp-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cloudmcp Authentication](https://apis.io/security/cloudmcp/cloudmcp-authentication/)
+- [Cloudmcp Domain Security](https://apis.io/security/cloudmcp/cloudmcp-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cloudmcp Plans Pricing](https://apis.io/plans/cloudmcp/cloudmcp-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cloudmcp.run/)
+- [Documentation](https://docs.cloudmcp.run/)
+- [Getting started](https://docs.cloudmcp.run/quickstart)
+- [API reference](https://docs.cloudmcp.run/llms.txt)
+- [Pricing](https://cloudmcp.run/pricing)
+- [Support](https://cloudmcp.run/support)
+- [Blog](https://cloudmcp.run/blog)
+- [GitHub](https://github.com/mintlify)
+
+## API Evangelist rating
+
+**Kin Score 32.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 20.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 42.1 |
+
+**Agent readiness 34.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cloudmcp/](https://apis.io/providers/cloudmcp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cloud MCP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cloudmcp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
